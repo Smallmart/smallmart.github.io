@@ -37,4 +37,30 @@
     
   </entry>
   
+  <entry>
+    <title>Loopback4 如何打包SDK API给前端使用</title>
+    <link href="http://smallmart.github.io/2021/03/10/loopback4-ru-he-da-bao-sdk-api-gei-qian-duan-shi-yong/"/>
+    <id>http://smallmart.github.io/2021/03/10/loopback4-ru-he-da-bao-sdk-api-gei-qian-duan-shi-yong/</id>
+    <published>2021-03-10T10:00:00.000Z</published>
+    <updated>2022-06-15T01:23:00.306Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#loopback4-%E5%A6%82%E4%BD%95%E6%89%93%E5%8C%85sdk-api%E7%BB%99%E5%89%8D%E7%AB%AF%E4%BD%BF%E7%94%A8&quot;&gt;Loopback4 如何打包SDK</summary>
+        
+      
+    
+    
+    
+    <category term="blog" scheme="http://smallmart.github.io/categories/blog/"/>
+    
+    
+    <category term="loopback4" scheme="http://smallmart.github.io/tags/loopback4/"/>
+    
+  </entry>
+  
 </feed>
