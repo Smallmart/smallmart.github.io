@@ -593,7 +593,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-06-18
+                    2022-06-19
                 </div>
                 
 
@@ -641,8 +641,7 @@
 </ul>
 <h1 id="如何在群晖NAS上安装PostgreSQL"><a href="#如何在群晖NAS上安装PostgreSQL" class="headerlink" title="如何在群晖NAS上安装PostgreSQL"></a>如何在群晖NAS上安装PostgreSQL</h1><h2 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1. 准备工作"></a>1. 准备工作</h2><ul>
 <li><p>在群晖Docker中，搜索镜像“postgres”，如下图，选择“postgres”进行下载，我已经下载好了</p>
-<p><img src="/image-20220618223103603.png"></p>
-</li>
+<img src="/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/image-20220618223103603.png" class=""></li>
 </ul>
 <blockquote>
 <p>tips: 如果使用Docker下载不了，可以改为使用命令的方式</p>
@@ -652,15 +651,16 @@
 </blockquote>
 <h2 id="2-启动PostgreSQL镜像"><a href="#2-启动PostgreSQL镜像" class="headerlink" title="2. 启动PostgreSQL镜像"></a>2. 启动PostgreSQL镜像</h2><ul>
 <li><p>下载好，在映像页面启动它：如下图</p>
-<p><img src="/image-20220618223625617.png"></p>
-</li>
+<img src="/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/image-20220618223625617.png" class=""></li>
 </ul>
 <h2 id="3-配置PostgreSQL"><a href="#3-配置PostgreSQL" class="headerlink" title="3. 配置PostgreSQL"></a>3. 配置PostgreSQL</h2><ul>
 <li><p>接下来就是配置PostgreSQL了，如下图：</p>
 <p>1.选择网络为bridge，即桥接模式，然后下一步</p>
-<p><img src="/image-20220618223857633.png" alt="image-20220618223857633"></p>
+<img src="/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/image-20220618223857633.png" class="">
+
 <p>2.在常规设置页面中，可以自定义容器名称后选择高级设置；我们先点击高级设置进行环境变量的配置，如下图</p>
-<p><img src="/image-20220618224043398.png" alt="image-20220618224043398"></p>
+<img src="/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/image-20220618224043398.png" class="">
+
 <p>3.配置环境变量，新增两个变量这里以表格中的值做为示范，最后效果如下图，编辑好后点击保存</p>
 <table>
 <thead>
@@ -681,16 +681,17 @@
 <td>root密码</td>
 </tr>
 </tbody></table>
-<p><img src="/image-20220618224627818.png" alt="image-20220618224627818"><br>4.保存后会回到常规设置页面，点下一步跳转到端口设置，如下图，本地端口可自行设置（这里以15432、5432为例，左边为宿主机端口，右边为容器端口，容器端口一般不改动)，如下图；设置好后点下一步</p>
-<p><img src="/image-20220618224914471.png" alt="image-20220618224914471"><br>5.配置映射文件，如下图，左边为宿主机文件夹路径，右边为容器装载路径，然后点下一步直接完成容器的创建</p>
-<p><img src="/image-20220618225253982.png" alt="image-20220618225253982"><br>6.启动创建的postgres容器</p>
-<p><img src="/image-20220618225459921.png" alt="image-20220618225459921"></p>
-</li>
+<img src="/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/image-20220618224627818.png" class="">
+<p>4.保存后会回到常规设置页面，点下一步跳转到端口设置，如下图，本地端口可自行设置（这里以15432、5432为例，左边为宿主机端口，右边为容器端口，容器端口一般不改动)，如下图；设置好后点下一步</p>
+<img src="/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/image-20220618224914471.png" class="">
+<p>5.配置映射文件，如下图，左边为宿主机文件夹路径，右边为容器装载路径，然后点下一步直接完成容器的创建</p>
+<img src="/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/image-20220618225253982.png" class="">
+<p>6.启动创建的postgres容器</p>
+<img src="/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/image-20220618225459921.png" class=""></li>
 </ul>
 <h2 id="4-链接PostgreSQL测试是否正常"><a href="#4-链接PostgreSQL测试是否正常" class="headerlink" title="4. 链接PostgreSQL测试是否正常"></a>4. 链接PostgreSQL测试是否正常</h2><ul>
 <li><p>打开navicat链接PostgreSQL，成功</p>
-<p><img src="/image-20220618230630214.png" alt="image-20220618230630214"></p>
-</li>
+<img src="/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/image-20220618230630214.png" class=""></li>
 </ul>
 <blockquote>
 <p>tips: 也可以使用cmd中的telnet命令测试</p>
