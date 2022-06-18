@@ -6,7 +6,7 @@
   <link href="http://smallmart.github.io/atom.xml" rel="self"/>
   
   <link href="http://smallmart.github.io/"/>
-  <updated>2022-06-18T09:08:08.476Z</updated>
+  <updated>2022-06-18T15:09:29.023Z</updated>
   <id>http://smallmart.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何在群晖NAS上安装PostgreSQL</title>
+    <link href="http://smallmart.github.io/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/"/>
+    <id>http://smallmart.github.io/2022/06/18/zai-qun-hui-nas-shang-an-zhuang-postgresql/</id>
+    <published>2022-06-18T13:53:33.000Z</published>
+    <updated>2022-06-18T15:09:29.023Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="blog" scheme="http://smallmart.github.io/categories/blog/"/>
+    
+    
+    <category term="NAS" scheme="http://smallmart.github.io/tags/NAS/"/>
+    
+  </entry>
   
   <entry>
     <title>Angular部署脚本自动创建SDK文件</title>
