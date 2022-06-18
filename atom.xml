@@ -6,7 +6,7 @@
   <link href="http://smallmart.github.io/atom.xml" rel="self"/>
   
   <link href="http://smallmart.github.io/"/>
-  <updated>2022-06-15T01:35:26.309Z</updated>
+  <updated>2022-06-18T09:08:08.476Z</updated>
   <id>http://smallmart.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Angular部署脚本自动创建SDK文件</title>
+    <link href="http://smallmart.github.io/2022/06/18/angular-bu-shu-jiao-ben-zi-dong-chuang-jian-sdk-wen-jian/"/>
+    <id>http://smallmart.github.io/2022/06/18/angular-bu-shu-jiao-ben-zi-dong-chuang-jian-sdk-wen-jian/</id>
+    <published>2022-06-18T09:00:00.000Z</published>
+    <updated>2022-06-18T09:08:08.476Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="blog" scheme="http://smallmart.github.io/categories/blog/"/>
+    
+    
+    <category term="Angular" scheme="http://smallmart.github.io/tags/Angular/"/>
+    
+  </entry>
   
   <entry>
     <title>Loopback4 如何打包SDK API给前端使用</title>

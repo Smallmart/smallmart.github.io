@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Angular部署脚本自动创建SDK文件</title>
+      <link href="/2022/06/18/angular-bu-shu-jiao-ben-zi-dong-chuang-jian-sdk-wen-jian/"/>
+      <url>/2022/06/18/angular-bu-shu-jiao-ben-zi-dong-chuang-jian-sdk-wen-jian/</url>
+      
+        <content type="html"><![CDATA[<ul><li><a href="#angular%E9%83%A8%E7%BD%B2%E8%84%9A%E6%9C%AC%E8%87%AA%E5%8A%A8%E5%88%9B%E5%BB%BAsdk%E6%96%87%E4%BB%B6">Angular部署脚本自动创建SDK文件</a><ul><li><a href="#1-%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C">1. 准备工作</a></li><li><a href="#2-%E9%85%8D%E7%BD%AE%E8%84%9A%E6%9C%AC">2. 配置脚本</a></li><li><a href="#3-%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC">3. 运行脚本</a></li></ul></li></ul><h1 id="Angular部署脚本自动创建SDK文件"><a href="#Angular部署脚本自动创建SDK文件" class="headerlink" title="Angular部署脚本自动创建SDK文件"></a>Angular部署脚本自动创建SDK文件</h1><h2 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1. 准备工作"></a>1. 准备工作</h2><ul><li>在项目根目录下运行如下命令：</li></ul><pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">E:\angular&gt;npm install -g ng-openapi-genE:\angular&gt;npm install -g @angular/cli<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><blockquote><p>tips: ng-openapi-gen 可以帮助我们创建 openapi.json 规范文件</p></blockquote><h2 id="2-配置脚本"><a href="#2-配置脚本" class="headerlink" title="2. 配置脚本"></a>2. 配置脚本</h2><ul><li>在Package.json的“scripts”下加入loopback4 OpenAPI URL：</li></ul><pre class="line-numbers language-json" data-language="json"><code class="language-json"><span class="token property">"buildSDK"</span><span class="token operator">:</span><span class="token string">"curl http://localhost:3000/openapi.json -o openapi.json &amp;&amp; ng-openapi-gen --input openapi.json --output ./sdk"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><blockquote><p>tips：ng-openapi-gen –input openapi.json –output ./sdk 将远端API服务 打包成sdk文件，放在项目根目录上</p></blockquote><h2 id="3-运行脚本"><a href="#3-运行脚本" class="headerlink" title="3. 运行脚本"></a>3. 运行脚本</h2><pre class="line-numbers language-cmd" data-language="cmd"><code class="language-cmd">E:\angular&gt;npm run buildSDK<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><blockquote><p>tips: 会自动将SDK打包至项目根目录</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Angular </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Loopback4 如何打包SDK API给前端使用</title>
       <link href="/2022/06/15/loopback4-ru-he-da-bao-sdk-api-gei-qian-duan-shi-yong/"/>
       <url>/2022/06/15/loopback4-ru-he-da-bao-sdk-api-gei-qian-duan-shi-yong/</url>
